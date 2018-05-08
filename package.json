@@ -1,0 +1,23 @@
+{
+  "name": "sample-node",
+  "version": "1.0.0",
+  "description": "",
+  "main": "script.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^2.0.1",
+    "body-parser": "^1.18.2",
+    "express": "^4.16.3",
+    "fs": "0.0.1-security",
+    "mongo-models": "^2.0.3",
+    "mongoose": "^5.0.16",
+    "nodemon": "^1.17.3",
+    "npm": "^6.0.0",
+    "path": "^0.12.7",
+    "pug": "^2.0.3"
+  }
+}

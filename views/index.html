@@ -1,0 +1,54 @@
+<!Doctype html>
+<html>
+<style>
+    .btn-group button {
+        background-color: rgb(115, 139, 250);
+        /* Green background */
+        border: 1px solid green;
+        /* Green border */
+        color: white;
+        /* White text */
+        padding: 10px 24px;
+        /* Some padding */
+        cursor: pointer;
+        /* Pointer/hand icon */
+        float: left;
+        /* Float the buttons side by side */
+    }
+
+    /* Clear floats (clearfix hack) */
+
+    .btn-group:after {
+        content: "";
+        clear: both;
+        display: table;
+    }
+
+    /* Add a background color on hover */
+
+    .btn-group button:hover {
+        background-color: #4c12eb;
+    }
+</style>
+
+<body>
+    <div style="padding-top: 20%; padding-left: 40%">
+        <h1>Welcome</h1>
+
+        <div class="btn-group">
+            <form method="GET" action="http://127.0.0.1:8000/login">
+                <button>Login</button>
+            </form>
+        </div>
+        <h4> Don't have a account?
+            <form method="GET" action="http://127.0.0.1:8000/signup">
+                <button style="background-color: rgb(115, 139, 250); 
+                    border: 1px solid green;   cursor: pointer; 
+                    color: white;"> Signup
+                </button>
+            </form>
+        </h4>
+    </div>
+</body>
+
+</html>

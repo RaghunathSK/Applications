@@ -1,0 +1,15 @@
+html(lang='en')
+	head
+		title LOGIN PAGE
+	body
+		h1 
+		p Use <i>user</i> for the username and <i>pass</i> for the password.
+		form(method='post' action="http://127.0.0.1:8000/users/doologin")
+			p
+				label(for='userid') Userid
+				input(type='text', name='userid')
+			p
+				label(for='password') Password
+				input(type='password', name='password')
+			input(type='submit')
+		
